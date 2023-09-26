@@ -35,3 +35,29 @@ h2 {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding-outline {
+  text-decoration: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 30px;
+}
+.container h2 {
+  font-size: 64px;
+}
+img {
+  width: 560px;
+  height: 560px;
+}
+.container p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+.description {
+  padding-left: 50px;
+  font-weight: bold;
+}
