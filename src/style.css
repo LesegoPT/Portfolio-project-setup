@@ -46,6 +46,7 @@ h2 {
 }
 .container h2 {
   font-size: 64px;
+  text-align: center;
 }
 img {
   width: 560px;
