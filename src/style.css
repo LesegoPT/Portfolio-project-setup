@@ -127,3 +127,8 @@ h3 {
   font-family: var(--default-font-family);
   line-height: 1.5;
 }
+.content p {
+  margin: 10px;
+  font-size: 14px;
+  font-family: var(--default-font-family);
+}
