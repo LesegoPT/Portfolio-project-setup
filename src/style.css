@@ -114,3 +114,16 @@ img {
 .about-section {
   padding: 130px 20px;
 }
+.content h1 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+  padding: 160px 20px 20px;
+}
+.content h2,
+h3 {
+  margin: 10px;
+  font-weight: bolder;
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+}
