@@ -154,10 +154,9 @@ nav li {
   font-weight: 500;
   line-height: normal;
 }
-nav a:active {
-  color: #6c63ff;
-}
-nav a:hover {
+
+nav a:hover,
+nav li.active a {
   color: #6c63ff;
 }
 nav a {
