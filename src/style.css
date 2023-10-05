@@ -164,6 +164,7 @@ nav a {
   color: rgba(39, 33, 66, 0.7);
   text-decoration: none;
 }
+
 footer a {
   color: black;
   font-size: 24px;
@@ -171,11 +172,14 @@ footer a {
   font-family: var(--default-font-family);
   text-decoration: none;
 }
-.mail-box {
+footer .mail-box {
   padding: 50px 20px;
 }
+footer .social-links {
+  margin-bottom: 60px;
+}
 footer .social-links a {
-  margin: 0 30px;
+  margin: 30px 30px;
   padding: 10px 15px;
   color: var(--primary-color);
   background-color: var(--secondary-color);
@@ -183,7 +187,7 @@ footer .social-links a {
   border-radius: 50%;
   transition: all 150ms ease-in-out;
 }
-.social-links a:hover {
+footer .social-links a:hover {
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
@@ -193,19 +197,20 @@ footer .social-links a {
   border-radius: 4px;
   color: white;
   font-size: 18px;
-  line-height: 27px;
   padding: 15px 30px;
 }
-.footer-box {
-  margin: 20px 60px;
+footer .bottom-box {
+  margin-top: 80px;
+  padding: 30px 120px;
   background-color: var(--secondary-color);
-  border-radius: 20px;
+  border-radius: 10px;
 }
-.footer-box h4 {
+footer .bottom-box h4 {
   font-size: 48px;
   font-family: var(--heading-font-family);
 }
-.footer-box p {
+footer .bottom-box p {
+  margin: 0 auto;
   font-size: 18px;
   font-family: var(--default-font-family);
 }
